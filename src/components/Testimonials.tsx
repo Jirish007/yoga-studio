@@ -1,4 +1,4 @@
-export default function Testimonials() {
+const Testimonials:React.FC=() =>{
   return (
     <section className="bg-light py-5">
       <div className="container">
@@ -21,3 +21,4 @@ export default function Testimonials() {
     </section>
   );
 }
+export default Testimonials;

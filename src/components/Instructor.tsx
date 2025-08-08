@@ -1,6 +1,6 @@
 
 import instructor from '../assets/instructor.webp'
-export default function Instructor() {
+const Instructor:React.FC=() =>{
   return (
     <section className="container my-5">
       <div className="row align-items-center">
@@ -23,3 +23,4 @@ export default function Instructor() {
     </section>
   );
 }
+export default Instructor;

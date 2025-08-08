@@ -5,7 +5,7 @@ import Instructor from "./components/Instructor";
 const Testimonials = React.lazy(() => import("./components/Testimonials"));
 import Contact from "./components/Contact";
 
-export default function App() {
+const App:React.FC = ()=>{
   return (
     <>
       <Hero />
@@ -18,3 +18,4 @@ export default function App() {
     </>
   );
 }
+export default App;

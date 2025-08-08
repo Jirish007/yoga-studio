@@ -1,4 +1,4 @@
-export default function Contact() {
+const Contact:React.FC=() =>{
   return (
     <section className="container my-5" id="contact">
       <h2 className="text-center mb-4">Get In Touch</h2>
@@ -13,7 +13,7 @@ export default function Contact() {
         </div>
         <div className="mb-3">
           <label htmlFor="message" className="form-label">Message</label>
-          <textarea id="message" className="form-control" rows="4" required></textarea>
+          <textarea id="message" className="form-control" rows={4} required></textarea>
         </div>
         <button type="submit" className="btn btn-primary w-100">
           <i className="bi bi-send me-2"></i>Send Message
@@ -22,3 +22,4 @@ export default function Contact() {
     </section>
   );
 }
+export default Contact;

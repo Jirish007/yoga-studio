@@ -1,7 +1,7 @@
 
 import seated from '../assets/seated.webp'
 import studio from '../assets/studio.webp'
-export default function Classes() {
+const Classes:React.FC=() =>{
   return (
     <section className="container my-5">
       <h2 className="text-center mb-4">Yoga Classes</h2>
@@ -32,3 +32,4 @@ export default function Classes() {
     </section>
   );
 }
+export default Classes;

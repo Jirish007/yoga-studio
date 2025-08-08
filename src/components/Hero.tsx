@@ -1,6 +1,6 @@
 
 import serene from '../assets/serene.webp'
-export default function Hero() {
+const Hero:React.FC=() =>{
   return (
     <section
       className="text-white text-center py-5"
@@ -20,3 +20,4 @@ export default function Hero() {
     </section>
   );
 }
+export default Hero;
